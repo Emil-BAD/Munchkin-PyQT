@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FirstWindow</class>
+ <widget class="QMainWindow" name="FirstWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FirstWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1931</width>
+         <height>1041</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/5c9a45f04195c169baa1328d.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="start">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>490</y>
+         <width>701</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>24</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Одиночная игра
+на
+рекордное время</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="coop">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>630</y>
+         <width>601</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>24</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Коперативная игра
+(Скоро будет)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>60</y>
+         <width>1021</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>170</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string>Munchkin</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>351</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/pngwing.com.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>4</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>1370</x>
+         <y>20</y>
+         <width>421</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">transform: scale(1, -1);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/pngwing.com (1).png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+       <property name="margin">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>230</y>
+         <width>1021</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>100</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#1b1b1b;&quot;&gt;mini-game&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1b1b1b;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>330</y>
+         <width>1021</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>60</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#1b1b1b;&quot;&gt;rus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>1150</x>
+         <y>880</y>
+         <width>1021</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>60</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;by EmilBAD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>-420</x>
+         <y>890</y>
+         <width>1021</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Munchkin</family>
+         <pointsize>30</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;beta 0.1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sound">
+       <property name="geometry">
+        <rect>
+         <x>1670</x>
+         <y>700</y>
+         <width>211</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 0px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/sound.png</normaloff>Images/sound.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="shortcut">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

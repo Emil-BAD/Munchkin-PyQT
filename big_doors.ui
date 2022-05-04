@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>859</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>2</y>
+     <width>731</width>
+     <height>871</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/5c9a45f04195c169baa1328d.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="res">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>391</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fight">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>720</y>
+     <width>231</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Munchkin</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Сражаться</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Images/swords.png</normaloff>Images/swords.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="runing">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>720</y>
+     <width>231</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Munchkin</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Смыться</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Images/boots.png</normaloff>Images/boots.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="take">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>720</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Munchkin</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Взять</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Images/hand_take.png</normaloff>Images/hand_take.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="com">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>711</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Munchkin</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drop">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>640</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Munchkin</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 7px solid #571308;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Сбросить</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Images/no.png</normaloff>Images/no.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
